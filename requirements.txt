@@ -8,6 +8,8 @@ xgboost
 lightgbm
 plotly
 python-dotenv
+joblib
+numpy
 
 scikit-learn==1.5.2
 #!pip uninstall -y scikit-learn
