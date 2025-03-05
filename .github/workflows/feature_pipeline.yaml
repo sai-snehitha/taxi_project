@@ -25,9 +25,8 @@ jobs:
 
       - name: Run new data fetch pipeline and load to hopsworks
         env:
+          PYTHONPATH: ${{ github.workspace }}
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-        run: |
-          export PYTHONPATH=$PYTHONPATH:$(pwd)
-          ls -R  # Debugging: List files to verify paths
-          python feature_pipeline.py
+          run: python feature_pipeline.py
+        
 
