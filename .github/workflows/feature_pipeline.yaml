@@ -28,5 +28,6 @@ jobs:
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
         run: |
           export PYTHONPATH=$PYTHONPATH:$(pwd)
+          ls -R  # Debugging: List files to verify paths
           python feature_pipeline.py
 
