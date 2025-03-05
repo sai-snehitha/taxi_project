@@ -11,7 +11,7 @@ python-dotenv
 joblib
 numpy
 folium
-geopandas
+geopandas 
 hopsworks
 
 scikit-learn==1.5.2
