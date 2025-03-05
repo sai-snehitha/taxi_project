@@ -10,6 +10,7 @@ plotly
 python-dotenv
 joblib
 numpy
+folium
 
 scikit-learn==1.5.2
 #!pip uninstall -y scikit-learn
