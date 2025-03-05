@@ -27,6 +27,4 @@ jobs:
         env:
           PYTHONPATH: ${{ github.workspace }}
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
-          run: python feature_pipeline.py
-        
-
+        run: python feature_pipeline.py  #  `run` is now correctly placed
