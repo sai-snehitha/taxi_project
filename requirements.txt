@@ -1,0 +1,14 @@
+matplotlib
+notebook 
+pandas
+pyarrow
+requests
+seaborn 
+xgboost
+lightgbm
+plotly
+python-dotenv
+
+scikit-learn==1.5.2
+#!pip uninstall -y scikit-learn
+#!pip install scikit-learn==1.5.2
