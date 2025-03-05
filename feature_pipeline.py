@@ -7,7 +7,7 @@ import hopsworks
 import pandas as pd
  
 import config
-from taxi_project.data_utils import fetch_batch_raw_data, transform_raw_data_into_ts_data
+from data_utils import fetch_batch_raw_data, transform_raw_data_into_ts_data
 
 # Configure logging
 logging.basicConfig(
