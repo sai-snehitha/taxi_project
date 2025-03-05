@@ -13,7 +13,7 @@ numpy
 folium
 geopandas 
 hopsworks
-streamlit_folium
+streamlit_folium  
 
 scikit-learn==1.5.2
 #!pip uninstall -y scikit-learn
